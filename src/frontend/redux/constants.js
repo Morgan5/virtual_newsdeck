@@ -1,0 +1,11 @@
+// Number of rows in the newsdeck
+export const defaultRows = 5;
+
+// Number of columns in the newsdeck
+export const defaultColumns = 4;
+
+// Information on the available newspapers
+export const defaultNewspapers = {"1": {"name": "The Australian Financial Review", "price": 4.5, "img": "https://i.imgur.com/N9KhovN.jpg"}, "2": {"name": "The Australian", "price": 3.5, "img": "https://i.imgur.com/vwhgEW4.jpg"}, "3": {"name": "The Canberra Times", "price": 8, "img": "https://i.imgur.com/VTN9584.jpg"}, "4": {"name": "The Daily Telegraph", "price": 3, "img": "https://i.imgur.com/BRRmVgs.png"}, "5": {"name": "The Sydney Morning Herald", "price": 4.5, "img": "https://i.imgur.com/oXE1ZFe.jpg"}, "6": {"name": "Northern Territory News", "price": 5, "img": "https://i.imgur.com/BG8tG4f.jpg"}, "7": {"name": "The Courier-Mail", "price": 4.5, "img": "https://i.imgur.com/pWxcDip.jpg"}, "8": {"name": "The Advertiser", "price": 1.5, "img": "https://i.imgur.com/V5lZpaM.png"}, "9": {"name": "The Mercury", "price": 4, "img": "https://i.imgur.com/1dR7gWX.png"}, "10": {"name": "The Age", "price": 6.5, "img": "https://i.imgur.com/KMvXIB9.jpg"}, "11": {"name": "Herald Sun", "price": 5, "img": "https://i.imgur.com/Selbp4p.jpg"}, "12": {"name": "The West Australian", "price": 6.9, "img": "https://i.imgur.com/H7VeiXv.jpg"}, "13": {"name": "The Border Mail", "price": 3, "img": "https://i.imgur.com/R0jjkuI.jpg"}};
+
+// Information on the initial arrangement
+export const defaultArrangement = [{"cell_number": 1, "newspaper_id": 1}, {"cell_number": 2, "newspaper_id": 1}, {"cell_number": 3, "newspaper_id": 1}, {"cell_number": 4, "newspaper_id": 1}, {"cell_number": 5, "newspaper_id": 2}, {"cell_number": 6, "newspaper_id": 2}, {"cell_number": 7, "newspaper_id": 2}, {"cell_number": 8, "newspaper_id": 3}, {"cell_number": 9, "newspaper_id": 3}, {"cell_number": 10, "newspaper_id": 4}, {"cell_number": 11, "newspaper_id": 4}, {"cell_number": 12, "newspaper_id": 4}, {"cell_number": 13, "newspaper_id": 5}, {"cell_number": 14, "newspaper_id": 8}, {"cell_number": 15, "newspaper_id": 8}, {"cell_number": 16, "newspaper_id": 10}, {"cell_number": 17, "newspaper_id": 11}, {"cell_number": 18, "newspaper_id": 11}, {"cell_number": 19, "newspaper_id": 12}, {"cell_number": 20, "newspaper_id": 13}];

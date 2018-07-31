@@ -1,0 +1,65 @@
+.header {
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom-width: 1px !important;
+    border-bottom-color: white !important;
+}
+
+.main-grid {
+    /* minus 2.85714em to account for the header */
+    height: calc(100vh - 2.85714em);
+}
+
+.statsbar {
+    /* -15px to account for the top margin of the message window*/
+    height: calc(100% - 15px);
+    margin-right: 15px;
+}
+
+.statsbar-message {
+    margin-top: 15px !important;
+}
+
+.no-margin-grid {
+    margin: 0px !important;
+}
+
+.no-padding-column {
+    padding: 0px !important;
+}
+
+.newspapers-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0px !important;
+    overflow-y: scroll;
+    height: 100% !important;
+    max-height: 100%;
+}
+
+.sidebar-newspaper-container {
+    max-width: 20vh !important;
+}
+
+.sidebar-heading {
+    margin-bottom: 5px;
+}
+
+.newsdeck-container {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.inner-newsdeck-cell {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 125% !important;
+}
+
+.on-display-newspaper {
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+}
